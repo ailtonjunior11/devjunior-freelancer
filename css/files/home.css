@@ -104,12 +104,11 @@
 
 .link__botao {
   display: block;
-  font-size: 0.83rem;
   font-weight: 300;
 
   border: 1px solid var(--cor-textos);
   border-radius: 0.3rem;
-  padding: 0.3rem 0;
+  padding: 0.5rem 0;
   background: var(--cor-card);
   color: var(--cor-textos);
   transform: translateY(-0.2rem);
