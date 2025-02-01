@@ -1,0 +1,29 @@
+footer {
+  background-color: var(--cor-card);
+  padding: 1rem;
+}
+
+footer b {
+  font-weight: 300;
+}
+
+.conteudo__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.redes__sociais__footer {
+  display: flex;
+  gap: 2rem;
+}
+
+.redes__sociais__footer i {
+  font-size: 1.3rem;
+  transition: 0.3s;
+  color: var(--cor-textos1);
+}
+
+.redes__sociais__footer i:hover {
+  color: var(--cor-textos);
+}

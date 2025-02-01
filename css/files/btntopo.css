@@ -1,0 +1,38 @@
+/* Botão scroll topo */
+.btntopo {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+
+  position: fixed;
+  right: 50px;
+  bottom: 60px;
+
+  font-size: 1.05rem;
+  font-weight: 300;
+
+  z-index: 20;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.btntopo.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btntopo i {
+  font-size: 2.5rem;
+
+  color: var(--cor-textos);
+  border: solid 1px var(--cor-textos);
+  border-radius: 50%;
+}

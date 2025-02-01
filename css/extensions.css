@@ -1,0 +1,11 @@
+@import "./global.css";
+@import "./variables.css";
+
+@import "./files/header.navbar.css";
+@import "./files/home.css";
+@import "./files/projetos.css";
+@import "./files/sobre.css";
+@import "./files/serviços.css";
+@import "./files/contatos.css";
+@import "./files/footer.css";
+@import "./files/btntopo.css";

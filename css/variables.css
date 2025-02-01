@@ -1,0 +1,11 @@
+:root {
+  /* cores */
+  --cor-body: #000000;
+  --cor-textos: #fcfcfc;
+  --cor-textos1: #ffffff81;
+  --cor-card: #131313;
+  --cor-borda: #ffffff1c;
+
+  /* Fonte */
+  --font-family: "Kanit", serif;
+}
