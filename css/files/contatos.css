@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+
+  padding: 5rem 2rem 2rem;
 }
 
 .titulo__secao__contatos {

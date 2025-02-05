@@ -21,6 +21,7 @@
     barra 0.5s step-end infinite alternate;
 }
 
+/* Efeito digitação */
 @keyframes escrevendo {
   20% {
     width: 365px;

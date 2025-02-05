@@ -8,7 +8,7 @@
 }
 
 .titulo__secao__projetos {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 300;
 
   width: 0;
@@ -26,11 +26,11 @@
 
 @keyframes digitando {
   20% {
-    width: 270px;
+    width: 220px;
   }
 
   70% {
-    width: 270px;
+    width: 220px;
   }
 
   85% {
@@ -50,13 +50,13 @@
 
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 80%;
 
   padding-top: 20px;
 }
 
 .swiper-slide {
-  width: 400px;
+  width: 285px;
   text-align: center;
 
   background-position: center;
@@ -76,17 +76,21 @@
   flex-direction: column;
   gap: 0.5rem;
 
-  background-color: var(--cor-card);
+  background-color: var(--cor-textos);
 }
 
 .conteiner__text h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
+
+  color: var(--cor-card);
 }
 
 .conteiner__text p {
-  font-size: 0.83rem;
-  font-weight: 300;
+  font-size: 0.78rem;
+  padding: 0.87rem;
+
+  color: var(--cor-card);
 }
 
 .conteiner__links {
@@ -97,12 +101,12 @@
 
 .conteiner__links a {
   font-size: 0.8rem;
-  font-weight: 400;
+  font-weight: 300;
 
-  padding: 0.2rem 0.7rem;
+  padding: 0.3rem 0.7rem;
   border-radius: 0.2rem;
   color: var(--cor-textos);
-  border: solid 0.1px var(--cor-textos);
+  background-color: var(--cor-card);
 }
 
 /* Numeração de páginação */
@@ -126,18 +130,81 @@
 }
 
 /* Setas de páginação */
-.swiper-button-next,
-.swiper-button-prev {
-  padding: 1.5rem;
-
-  background-color: var(--cor-textos);
-  border-radius: 50%;
-}
-
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 800;
 
-  color: var(--cor-card);
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  border: solid 3px var(--cor-textos);
+
+  color: var(--cor-textos);
+  background-color: var(--cor-card);
+}
+
+/* Responsividade da seção projetos */
+
+/* Tablet */
+@media (min-width: 768px) {
+  .projetos {
+    padding: 5rem 2.5rem 2rem;
+  }
+
+  .titulo__secao__projetos {
+    font-size: 1.4rem;
+  }
+
+  .swiper {
+    height: 85%;
+  }
+
+  .swiper-slide {
+    width: 287px;
+  }
+
+  @keyframes digitando {
+    20% {
+      width: 240px;
+    }
+
+    70% {
+      width: 240px;
+    }
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .projetos {
+    padding: 5rem 3rem 2rem;
+  }
+
+  .swiper-slide {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .projetos {
+    padding: 5rem 4rem 2rem;
+  }
+
+  .titulo__secao__projetos {
+    font-size: 1.5rem;
+  }
+
+  .swiper-slide {
+    width: 350px;
+  }
+
+  @keyframes digitando {
+    20% {
+      width: 255px;
+    }
+
+    70% {
+      width: 255px;
+    }
+  }
 }

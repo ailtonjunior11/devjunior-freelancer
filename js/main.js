@@ -23,7 +23,7 @@ let swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
   slidesPerView: "auto",
   coverflowEffect: {
-    rotate: 6,
+    rotate: 9,
     stretch: 0,
     depth: 300,
     modifier: 1,
